@@ -1,0 +1,12 @@
+body{
+    padding: 30px;
+    
+    
+}
+header ,footer, nav,div,section,aside,article{
+    border: 0 dotted #f0f0f0;
+    border-radius: 5px;
+}
+.divcontent{
+  min-height:350px;
+}
