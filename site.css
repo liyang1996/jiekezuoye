@@ -13,3 +13,63 @@ header ,footer, nav,div,section,aside,article{
 .a{
     color: black;
 }
+.slogan-wrap{
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 10px;
+    width: 550px;
+    height: 385px;
+    
+    
+    
+}
+.img{
+    width: 550px;
+    height: 385px;
+}
+.loginbox{
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: -200px;
+    width: 550px;
+    height: 385px;
+   
+    background-color: (255,255,255,9)
+}
+.form-control{
+    padding: {
+        left: 100px;
+        right: 100px;
+        top: 40px;
+        bottom: 45px;
+    }
+    width: 250px;
+    height: 50px;
+    
+    
+    
+}
+
+.button{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 42px;
+    width: 300px;
+    height: 29
+    text-align: center;
+    background-color: #f85959;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
