@@ -65,8 +65,38 @@ header ,footer, nav,div,section,aside,article{
     cursor: pointer;
 }
 
-
-
+.nav-bar {
+    width: 100%;
+    height: 51px;
+    text-align: center;
+    color: #4ba5ff;
+   
+    font-size: 16px;
+    line-height: 49px;
+    background-image: url(http://images.china.cn/images1/ch/2014jb/16.jpg);
+    background-repeat: repeat-x;
+}
+    
+  .login_title {
+    width: 560px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    overflow: hidden;
+    text-align: left;
+    color: #626262;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login_box {
+    width: 500px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+}
 
 
 
