@@ -88,15 +88,7 @@ header ,footer, nav,div,section,aside,article{
     font-size: 18px;
     font-weight: bold;
 }
-.login_box {
-    width: 500px;
-    margin: 30px auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    overflow: hidden;
-    text-align: center;
-}
+
 
 
 
