@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>头条：彭丽媛和梅拉尼娅参观板厂小学</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+      
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="./homepage.html">
+        <img style="width: 60px;" src="jinri.png" alt="">
+        </a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav">
+            <li class="active">
+            <a href="./homepage.html">新闻</a></li>
+            <li><a href="./homepage.html">体育</a></li>
+            <li><a href="./homepage.html">汽车</a></li>
+            <li><a href="./homepage.html">房产</a></li>
+            <li><a href="./homepage.html">旅游</a></li>
+            <li><a href="./homepage.html">时尚</a></li>
+            <li><a href="./homepage.html">科技</a></li>
+            <li><a href="./homepage.html">财经</a></li>
+            <li><a href="./homepage.html">娱乐</a></li>
+            <li><a href="./homepage.html">更多</a></li>
+            
+            
+        </ul>
+    </div>
+    <div class="col-lg-5">
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">搜索</button>
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <a href="./loginpage.html"> 登录</a>/
+             <a href="./loginpage.html" > 注册</a>
+            </div>
+    </div>
+</nav>
+              <div class="container">
+                  <h1>彭丽媛和梅拉尼娅参观板厂小学</h1>
+                  <small>新华网 2017-11-09 16:37</small>
+                  <p>
+                      <img src="xiaoxuesheng.jpg" alt="">
+                  </p>
+                  彭丽媛和梅拉尼娅参观板厂小学，并与同学们亲切互动。（记者白洁、鞠鹏）
+                  <p>
+                      <img src="shufa.jpg" alt="">
+                  </p>
+                  <p>
+                      彭丽媛和梅拉尼娅参观板厂小学，并与同学们练习书法。（记者白洁、鞠鹏）
+                  </p>
+                  <p>
+                      <img src="canguan.jpg" alt="">
+                  </p>
+                  <p>
+                      彭丽媛和梅拉尼娅在服装设计教室。（记者白洁、燕雁）
+                  </p>
+                  <p>
+                      <img src="heying.jpg" alt="">
+                  </p>
+                  <p>彭丽媛和梅拉尼娅在古建筑教室。（记者白洁、鞠鹏）（据新华社“新华视点”微博报道）</p>
+              </div>
+              <div class="container">
+               <hr style="background-color: gray;height: 2px;border: none;" >
+                  <p>请输入你的评论 <span class="glyphicon glyphicon-user"></span></p> 
+                  <input type="text" class="form-control"placeholder="输入你的评论" / > 
+           <div class="col-sm-10"></div> 
+           <div class="col-sm-2">
+                <span class="input-group-btn">  
+               <button class="btn btn-info btn-search">提交</button>   
+            </span>  
+           </div>
+              </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+       $(function(){
+           $('#ad-carousel').carousel();
+           $('#menu-nav .navbar-collapse a').click(function(e){
+               var href = $(this).attr('href');
+               var tabId = $(this).attr('data-tab');
+               if('#'!==href){
+                   e.preventDefault();
+                   $(document).scrollTop($(href).offset().top - 70);
+                   if(tabId){
+                       $('#feature-tab a[href=#'+tabId +']').tab('show');
+                   }
+               }
+           })
+       })
+    </script>
+  </body>
+</html>
